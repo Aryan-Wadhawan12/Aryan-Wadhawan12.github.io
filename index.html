@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryan Wadhawan | Robotics & Aerospace Engineer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Personal portfolio of Aryan Wadhawan, an aspiring Robotics and Aerospace Engineer, STEM student, Delhi State Boxer, and competitive Chess player (FIDE 1453). Explore engineering projects, certificates, and achievements.">
+  <meta name="keywords" content="Aryan Wadhawan, Robotics, Aerospace, Artificial Intelligence, STEM Student, Delhi, Young Technology Scholars, Plaksha University, Weather Glider Project, Chess FIDE 1453">
+  <meta name="author" content="Aryan Wadhawan">
+
+  <!-- Icons & Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Canvas & Grid Effects -->
+  <canvas id="particles-canvas"></canvas>
+  <div class="grid-overlay"></div>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <a href="#" class="logo">
+      <span>//</span> WADHAWAN.A
+    </a>
+    <nav>
+      <a href="#hero" class="active">Home</a>
+      <a href="#about">Profile</a>
+      <a href="#timeline">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Toggle Navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-content scroll-animate">
+      <div class="hero-tag">
+        <span class="dot"></span> SYSTEM ONLINE // DELHI, IN
+      </div>
+      <h1>Aryan<br><span class="primary-gradient-text">Wadhawan</span></h1>
+      <h2>Robotics • Aerospace • Artificial Intelligence</h2>
+      <p class="hero-desc">
+        Building the future through robotics, engineering, and intelligent systems. Specializing in autonomous UAV systems, advanced physical computing, and cognitive algorithms.
+      </p>
+      <div class="hero-actions">
+        <a href="AryanWadhawanResume.pdf" download class="btn btn-primary" id="btn-download-resume">
+          <i class="fas fa-file-download"></i> Download CV
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fas fa-paper-plane"></i> Initialize Contact
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero Image Viewport -->
+    <div class="hero-visual scroll-animate">
+      <div class="hero-img-frame">
+        <img src="aryanpic.jpeg" alt="Aryan Wadhawan" class="hero-img">
+        <div class="hero-img-overlay"></div>
+        <div class="hero-corner-reticle hcr-tl"></div>
+        <div class="hero-corner-reticle hcr-tr"></div>
+        <div class="hero-corner-reticle hcr-bl"></div>
+        <div class="hero-corner-reticle hcr-br"></div>
+      </div>
+    </div>
+
+    <a href="#stats" class="scroll-indicator" aria-label="Scroll Down">
+      <span>Scroll Down</span>
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </a>
+  </section>
+
+  <!-- STATS COUNTER SECTION -->
+  <section id="stats">
+    <div class="stats-grid scroll-animate">
+      <div class="stat-card glass-panel">
+        <div class="stat-num" data-target="95.4" data-suffix="%" data-type="float">0.0%</div>
+        <div class="stat-label">Grade 10 Score</div>
+        <div class="stat-desc">District Topper Academic Excellence</div>
+      </div>
+      
+      <div class="stat-card glass-panel">
+        <div class="stat-num" data-target="1453" data-suffix="" data-type="int">0</div>
+        <div class="stat-label">FIDE Rating</div>
+        <div class="stat-desc">International Chess Federation</div>
+      </div>
+      
+      <div class="stat-card glass-panel">
+        <div class="stat-num" data-target="1" data-suffix="st" data-type="int">0</div>
+        <div class="stat-label">CBSE Zonals</div>
+        <div class="stat-desc">Zonal Chess Champion</div>
+      </div>
+      
+      <div class="stat-card glass-panel">
+        <div class="stat-num" data-target="3" data-suffix="rd" data-type="int">0</div>
+        <div class="stat-label">Delhi State Boxing</div>
+        <div class="stat-desc">Bronze Medalist (State Level)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2 class="section-title scroll-animate">System Profile</h2>
+    <div class="about-container">
+      <div class="about-visual scroll-animate">
+        <!-- Blueprint Schematic Block -->
+        <div class="profile-frame">
+          <img src="aryanpic.jpeg" alt="Aryan Wadhawan" class="profile-img">
+          <div class="profile-img-overlay-blend"></div>
+          <div class="schematic-details">
+            <div class="schematic-top">
+              <span>WADH_SYS_v1.0</span>
+              <span>LOC: 28.6139° N</span>
+            </div>
+            
+            <div class="schematic-grid">
+              <div class="reticle-corner rc-tl"></div>
+              <div class="reticle-corner rc-tr"></div>
+              <div class="reticle-corner rc-bl"></div>
+              <div class="reticle-corner rc-br"></div>
+            </div>
+            
+            <div class="schematic-bottom">
+              <span>Robotics & Aerospace Focus</span>
+              <span>Mind & Body Dynamic</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-details scroll-animate">
+        <p class="about-bio">
+          I am a Grade 11 science student from Delhi, India, driven by a deep fascination with autonomous hardware, aerospace design, and computational systems.
+        </p>
+        <p class="about-story">
+          My engineering journey is defined by a desire to combine physical engineering with intelligent software. By day, I build UAV mechanics, study avionics layouts, and write code for robotic assemblies. By night, I apply identical mental strategies on the chessboard (FIDE: 1453) and refine physical execution and discipline in the boxing ring. I see robotics not as a school subject, but as the medium through which future intelligent infrastructure will be constructed.
+        </p>
+        <div class="profile-highlights">
+          <div class="highlight-item">
+            <span class="highlight-icon"><i class="fas fa-brain"></i></span>
+            <div>
+              <strong>District Topper</strong>
+              <p class="muted-text">Grade 10 Board Rank (95.4%)</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon"><i class="fas fa-chess-knight"></i></span>
+            <div>
+              <strong>Chess Tactician</strong>
+              <p class="muted-text">FIDE Rating 1453 // Zonal Champion</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon"><i class="fas fa-mitten"></i></span>
+            <div>
+              <strong>State-level Boxer</strong>
+              <p class="muted-text">Delhi State Bronze Medalist</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon"><i class="fas fa-microchip"></i></span>
+            <div>
+              <strong>Innovator focus</strong>
+              <p class="muted-text">Robotics, UAV Systems, AI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- JOURNEY TIMELINE SECTION -->
+  <section id="timeline">
+    <h2 class="section-title scroll-animate">Journey Log</h2>
+    <div class="timeline-container">
+      <div class="timeline-line"></div>
+      
+      <!-- Timeline Node 1 -->
+      <div class="timeline-item scroll-animate">
+        <div class="timeline-node"></div>
+        <div class="timeline-content glass-panel">
+          <div class="timeline-date">MONTESSORI - 2025</div>
+          <h3>Step by Step School</h3>
+          <p>Secondary Board Education (Montessori to Grade 10)</p>
+          <div class="timeline-details">
+            <ul>
+              <li><strong>95.4% Cumulative Score</strong> - District Topper Board Recognition.</li>
+              <li>Strong foundation in Physics, Chemistry, and Advanced Mathematics.</li>
+              <li>CBSE Zonals Chess Gold Medalist.</li>
+            </ul>
+          </div>
+          <span class="muted-text" style="font-size: 0.7rem;"><i class="fas fa-plus"></i> Click to expand metrics</span>
+        </div>
+      </div>
+
+      <!-- Timeline Node 2 -->
+      <div class="timeline-item scroll-animate">
+        <div class="timeline-node"></div>
+        <div class="timeline-content glass-panel">
+          <div class="timeline-date">MAY - JUNE 2025</div>
+          <h3>Young Technology Scholars</h3>
+          <p>Plaksha University Residency</p>
+          <div class="timeline-details">
+            <ul>
+              <li>Selected from a highly competitive national applicant pool.</li>
+              <li>Engineered an autonomous weather telemetry data glider.</li>
+              <li>Deep-dive into Aerospace dynamics, Embedded coding, and AI models.</li>
+              <li>Implemented Design Thinking to prototype and test flight vectors.</li>
+            </ul>
+          </div>
+          <span class="muted-text" style="font-size: 0.7rem;"><i class="fas fa-plus"></i> Click to expand metrics</span>
+        </div>
+      </div>
+
+      <!-- Timeline Node 3 -->
+      <div class="timeline-item scroll-animate">
+        <div class="timeline-node"></div>
+        <div class="timeline-content glass-panel">
+          <div class="timeline-date">2026 - PRESENT</div>
+          <h3>Delhi Public School RK Puram</h3>
+          <p>Science Stream (Grade 11-12)</p>
+          <div class="timeline-details">
+            <ul>
+              <li>Focusing on Physics, Chemistry, Mathematics, and Computer Science.</li>
+              <li>Core leader of the robotics laboratory and digital systems design group.</li>
+              <li>FIDE rated tournament chess preparations (Rating: 1453).</li>
+              <li>Delhi State Bronze Medalist in competitive boxing.</li>
+            </ul>
+          </div>
+          <span class="muted-text" style="font-size: 0.7rem;"><i class="fas fa-plus"></i> Click to expand metrics</span>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <h2 class="section-title scroll-animate">Technical Stack</h2>
+    <div class="skills-grid">
+      
+      <!-- Card 1: Engineering -->
+      <div class="skills-card glass-panel scroll-animate">
+        <div class="skill-category-icon"><i class="fas fa-cog"></i></div>
+        <h3>Engineering</h3>
+        <ul class="skill-list">
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Robotics</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> UAV Systems</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Aerospace Design</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Physical Computing</li>
+        </ul>
+      </div>
+
+      <!-- Card 2: Programming -->
+      <div class="skills-card glass-panel scroll-animate">
+        <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+        <h3>Programming</h3>
+        <ul class="skill-list">
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Python</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> C++ (Arduino/Microcontrollers)</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Algorithmic Design</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Data Analysis</li>
+        </ul>
+      </div>
+
+      <!-- Card 3: Analytical -->
+      <div class="skills-card glass-panel scroll-animate">
+        <div class="skill-category-icon"><i class="fas fa-calculator"></i></div>
+        <h3>Analytical Thinking</h3>
+        <ul class="skill-list">
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Competitive Math</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Strategy & Tactics</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Systems Modeling</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Quantitative Analysis</li>
+        </ul>
+      </div>
+
+      <!-- Card 4: Design -->
+      <div class="skills-card glass-panel scroll-animate">
+        <div class="skill-category-icon"><i class="fas fa-compass"></i></div>
+        <h3>Design</h3>
+        <ul class="skill-list">
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Design Thinking</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Iterative Prototyping</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> CAD Modeling (SolidWorks/Fusion)</li>
+          <li class="skill-tag"><span class="skill-tag-dot"></span> Ergonomic Testing</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS & CREDENTIALS SECTION -->
+  <section id="achievements">
+    <h2 class="section-title scroll-animate">Achievements & Credentials</h2>
+    <div class="achievements-grid">
+      
+      <!-- Achievement 1 -->
+      <div class="achievement-card glass-panel scroll-animate">
+        <span class="achievement-icon">🏆</span>
+        <span class="achievement-tag">Academic</span>
+        <h3>District Topper</h3>
+        <p>Ranked top of the district in secondary board exams with an outstanding score of 95.4%.</p>
+      </div>
+
+      <!-- Achievement 2 -->
+      <div class="achievement-card glass-panel scroll-animate">
+        <span class="achievement-icon">♟</span>
+        <span class="achievement-tag">Chess</span>
+        <h3>CBSE Zonals Champion</h3>
+        <p>Secured Gold Medal/1st Rank in the regional CBSE Zonal Chess Championship tournament (FIDE Rating: 1453) and qualified for CBSE Nationals.</p>
+      </div>
+
+      <!-- Achievement 3 -->
+      <div class="achievement-card glass-panel scroll-animate">
+        <span class="achievement-icon">🥉</span>
+        <span class="achievement-tag">Boxing</span>
+        <h3>Delhi State Bronze</h3>
+        <p>Won Bronze Medal representing regional club in the competitive Delhi State Boxing tournament.</p>
+      </div>
+
+      <!-- Achievement 4 -->
+      <div class="achievement-card glass-panel scroll-animate">
+        <span class="achievement-icon">🔬</span>
+        <span class="achievement-tag">STEM</span>
+        <h3>Excellence in Science</h3>
+        <p>Honored with the school's Science Excellence Award for research and creative projects in physics.</p>
+      </div>
+
+      <!-- Achievement 5 -->
+      <div class="achievement-card glass-panel scroll-animate">
+        <span class="achievement-icon">💻</span>
+        <span class="achievement-tag">Technology</span>
+        <h3>IT Wizard</h3>
+        <p>1st prize at inter-school coding & digital systems contest for Python scripting design.</p>
+      </div>
+
+      <!-- Achievement 6 -->
+      <div class="achievement-card glass-panel scroll-animate">
+        <span class="achievement-icon">🏅</span>
+        <span class="achievement-tag">Sports</span>
+        <h3>Sportsman of the Year</h3>
+        <p>Recognized for outstanding leadership, sportsmanship, and physical versatility in boxing and chess.</p>
+      </div>
+
+    </div>
+
+    <!-- Credentials Subsection -->
+    <h3 class="sub-section-title scroll-animate" style="font-size: 1.8rem; text-align: center; margin-top: 5rem; margin-bottom: 2.5rem; font-family: var(--font-heading);">Verified Credentials</h3>
+    
+    <div class="gallery-container scroll-animate">
+      <!-- Filters -->
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All Documents</button>
+        <button class="filter-btn" data-filter="engineering">Engineering</button>
+        <button class="filter-btn" data-filter="academic">Academic</button>
+        <button class="filter-btn" data-filter="sports">Sports</button>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="gallery-grid">
+        
+        <!-- YTS Certificate Blueprint -->
+        <div class="cert-card glass-panel" data-category="engineering">
+          <div class="cert-thumb">
+            <!-- Blueprint visual representing Plaksha Certificate -->
+            <svg class="cert-blueprint-svg" viewBox="0 0 100 100">
+              <rect x="10" y="10" width="80" height="80" stroke-dasharray="2,2"/>
+              <text x="50" y="30" font-size="5" text-anchor="middle" fill="#38BDF8">PLAKSHA YTS</text>
+              <line x1="20" y1="50" x2="80" y2="50"/>
+              <circle cx="50" cy="50" r="10"/>
+              <text x="50" y="75" font-size="4" text-anchor="middle" fill="#94A3B8">AEROSPACE MODULE</text>
+            </svg>
+            <div class="cert-overlay">
+              <a href="#" class="cert-preview-trigger" aria-label="Preview Design"><i class="fas fa-eye"></i></a>
+              <a href="Plakshacertificate.pdf" target="_blank" class="cert-pdf-link" aria-label="View verified PDF"><i class="fas fa-file-download"></i></a>
+            </div>
+          </div>
+          <div class="cert-info">
+            <div>
+              <div class="cert-category">Engineering</div>
+              <h4>Young Technology Scholar Certificate</h4>
+              <p class="cert-issuer">Plaksha University</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CBSE Board District Topper Certificate Blueprint -->
+        <div class="cert-card glass-panel" data-category="academic">
+          <div class="cert-thumb">
+            <svg class="cert-blueprint-svg" viewBox="0 0 100 100">
+              <rect x="10" y="10" width="80" height="80" stroke-dasharray="2,2"/>
+              <text x="50" y="30" font-size="5" text-anchor="middle" fill="#38BDF8">CBSE BOARD</text>
+              <line x1="20" y1="40" x2="80" y2="40"/>
+              <path d="M 40,50 L 50,60 L 60,50 Z" />
+              <text x="50" y="75" font-size="4" text-anchor="middle" fill="#94A3B8">GRADE 10 // 95.4%</text>
+            </svg>
+            <div class="cert-overlay">
+              <a href="#" class="cert-preview-trigger" aria-label="Preview Design"><i class="fas fa-eye"></i></a>
+              <a href="Academicexcellence.pdf" target="_blank" class="cert-pdf-link" aria-label="View verified PDF"><i class="fas fa-file-download"></i></a>
+            </div>
+          </div>
+          <div class="cert-info">
+            <div>
+              <div class="cert-category">Academic</div>
+              <h4>Secondary School Certificate</h4>
+              <p class="cert-issuer">Central Board of Secondary Education</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- IT Wizard Certificate Blueprint -->
+        <div class="cert-card glass-panel" data-category="academic">
+          <div class="cert-thumb">
+            <svg class="cert-blueprint-svg" viewBox="0 0 100 100">
+              <rect x="10" y="10" width="80" height="80" stroke-dasharray="2,2"/>
+              <text x="50" y="30" font-size="5" text-anchor="middle" fill="#38BDF8">IT WIZARD</text>
+              <line x1="20" y1="50" x2="80" y2="50"/>
+              <rect x="42" y="42" width="16" height="16" fill="none" stroke="#22D3EE"/>
+              <text x="50" y="75" font-size="4" text-anchor="middle" fill="#94A3B8">PYTHON SCRIPTS</text>
+            </svg>
+            <div class="cert-overlay">
+              <a href="#" class="cert-preview-trigger" aria-label="Preview Design"><i class="fas fa-eye"></i></a>
+              <a href="ITWizard.pdf" target="_blank" class="cert-pdf-link" aria-label="View verified PDF"><i class="fas fa-file-download"></i></a>
+            </div>
+          </div>
+          <div class="cert-info">
+            <div>
+              <div class="cert-category">Academic</div>
+              <h4>IT Wizard Award</h4>
+              <p class="cert-issuer">Inter-School Tech Committee</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Zonal Chess Certificate Blueprint -->
+        <div class="cert-card glass-panel" data-category="sports">
+          <div class="cert-thumb">
+            <svg class="cert-blueprint-svg" viewBox="0 0 100 100">
+              <rect x="10" y="10" width="80" height="80" stroke-dasharray="2,2"/>
+              <text x="50" y="30" font-size="5" text-anchor="middle" fill="#38BDF8">CBSE ZONALS</text>
+              <circle cx="50" cy="50" r="12" fill="none"/>
+              <path d="M 45,45 H 55 V 55 H 45 Z" fill="none"/>
+              <text x="50" y="75" font-size="4" text-anchor="middle" fill="#94A3B8">CHESS GOLD MEDAL</text>
+            </svg>
+            <div class="cert-overlay">
+              <a href="#" class="cert-preview-trigger" aria-label="Preview Design"><i class="fas fa-eye"></i></a>
+              <a href="cbsechess.pdf" target="_blank" class="cert-pdf-link" aria-label="View verified PDF"><i class="fas fa-file-download"></i></a>
+            </div>
+          </div>
+          <div class="cert-info">
+            <div>
+              <div class="cert-category">Sports</div>
+              <h4>CBSE Zonal Chess Gold Medal</h4>
+              <p class="cert-issuer">CBSE Sports Authority</p>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.5rem;">Secured 1st Rank and qualified for the CBSE Nationals Chess Championship.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Delhi Boxing Certificate Blueprint -->
+        <div class="cert-card glass-panel" data-category="sports">
+          <div class="cert-thumb">
+            <svg class="cert-blueprint-svg" viewBox="0 0 100 100">
+              <rect x="10" y="10" width="80" height="80" stroke-dasharray="2,2"/>
+              <text x="50" y="30" font-size="5" text-anchor="middle" fill="#38BDF8">BOXING CHAMP</text>
+              <line x1="20" y1="50" x2="80" y2="50" stroke-dasharray="1,1"/>
+              <circle cx="50" cy="50" r="8" fill="none"/>
+              <text x="50" y="75" font-size="4" text-anchor="middle" fill="#94A3B8">STATE BRONZE</text>
+            </svg>
+            <div class="cert-overlay">
+              <a href="#" class="cert-preview-trigger" aria-label="Preview Design"><i class="fas fa-eye"></i></a>
+              <a href="Delhistateboxing.pdf" target="_blank" class="cert-pdf-link" aria-label="View verified PDF"><i class="fas fa-file-download"></i></a>
+            </div>
+          </div>
+          <div class="cert-info">
+            <div>
+              <div class="cert-category">Sports</div>
+              <h4>Delhi State Boxing Championship</h4>
+              <p class="cert-issuer">Delhi State Boxing Association</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sportsman of the Year Certificate Blueprint -->
+        <div class="cert-card glass-panel" data-category="sports">
+          <div class="cert-thumb">
+            <svg class="cert-blueprint-svg" viewBox="0 0 100 100">
+              <rect x="10" y="10" width="80" height="80" stroke-dasharray="2,2"/>
+              <text x="50" y="30" font-size="5" text-anchor="middle" fill="#38BDF8">SPORTSMAN</text>
+              <line x1="20" y1="60" x2="80" y2="60"/>
+              <path d="M 50,40 L 53,46 L 60,47 L 55,52 L 56,58 L 50,55 L 44,58 L 45,52 L 40,47 L 47,46 Z" fill="none" stroke="#22D3EE"/>
+              <text x="50" y="75" font-size="4" text-anchor="middle" fill="#94A3B8">VERSATILE ATHLETE</text>
+            </svg>
+            <div class="cert-overlay">
+              <a href="#" class="cert-preview-trigger" aria-label="Preview Design"><i class="fas fa-eye"></i></a>
+              <a href="sportsmen.pdf" target="_blank" class="cert-pdf-link" aria-label="View verified PDF"><i class="fas fa-file-download"></i></a>
+            </div>
+          </div>
+          <div class="cert-info">
+            <div>
+              <div class="cert-category">Sports</div>
+              <h4>Sportsman of the Year Award</h4>
+              <p class="cert-issuer">DPS Sports Board</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- INTERESTS SECTION -->
+  <section id="interests">
+    <h2 class="section-title scroll-animate">Pursuits & Disciplines</h2>
+    <div class="interests-grid">
+      
+      <!-- Chess -->
+      <div class="interest-card glass-panel scroll-animate">
+        <div class="interest-icon-box"><i class="fas fa-chess-queen"></i></div>
+        <h3>Chess</h3>
+        <span class="interest-rating">FIDE Rating: 1453</span>
+        <p>Approaching engineering problems like a grandmaster. FIDE rated Chess player active in regional tournaments, focusing on positional play, openings theory, and tactical system computations.</p>
+      </div>
+
+      <!-- Boxing -->
+      <div class="interest-card glass-panel scroll-animate">
+        <div class="interest-icon-box"><i class="fas fa-shield-halved"></i></div>
+        <h3>Boxing</h3>
+        <span class="interest-rating">Delhi State Competitor</span>
+        <p>Demanding physical grit, hyper-reflexes, and precise timing. Competed in Delhi State boxing matches in featherweight division, combining tactical strategy with physical speed and control.</p>
+      </div>
+
+      <!-- Math -->
+      <div class="interest-card glass-panel scroll-animate">
+        <div class="interest-icon-box"><i class="fas fa-square-root-variable"></i></div>
+        <h3>Competitive Math</h3>
+        <span class="interest-rating">Analytical Modeling</span>
+        <p>Studying logical puzzles, math Olympiads, and analytical systems to apply computational geometry and algebra directly to flight vectors and drone trajectory calculations.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox-modal" id="lightbox-modal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close Preview">&times;</button>
+      <img src="" class="lightbox-view" alt="Certificate Zoomed Preview">
+      <h3 class="lightbox-title">Certificate Title</h3>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2 class="section-title scroll-animate">Connect System</h2>
+    
+    <div class="contact-container">
+      <!-- Information Column -->
+      <div class="contact-info scroll-animate">
+        <h3 class="contact-tagline">Let's build something exceptional.</h3>
+        <p class="contact-bio">
+          I am always open to exploring academic partnerships, robotics collaborations, UAV engineering designs, or math research. Connect directly or transmit a packet using the console.
+        </p>
+        <div class="contact-methods">
+          <a href="mailto:aryanwadhawan2010@gmail.com" class="contact-method-card glass-panel">
+            <span class="contact-method-icon"><i class="fas fa-envelope"></i></span>
+            <div>
+              <h5>Secure Email</h5>
+              <span>aryanwadhawan2010@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/aryan-wadhawan" target="_blank" class="contact-method-card glass-panel">
+            <span class="contact-method-icon"><i class="fab fa-linkedin-in"></i></span>
+            <div>
+              <h5>Professional Network</h5>
+              <span>linkedin.com/in/aryan-wadhawan</span>
+            </div>
+          </a>
+          <div class="contact-method-card glass-panel">
+            <span class="contact-method-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <div>
+              <h5>Coordinates</h5>
+              <span>Delhi, India // UTC+5:30</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Form Column -->
+      <div class="contact-form-panel glass-panel scroll-animate">
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="user-name">Identifier / Name</label>
+            <input type="text" id="user-name" placeholder="e.g., Prof. James Carter" required>
+          </div>
+          <div class="form-group">
+            <label for="user-email">Return Email</label>
+            <input type="email" id="user-email" placeholder="e.g., james.carter@university.edu" required>
+          </div>
+          <div class="form-group">
+            <label for="user-message">Transmission Content</label>
+            <textarea id="user-message" placeholder="Outline your project, inquiry, or partnership details..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">
+            <i class="fas fa-network-wired"></i> Transmit Message
+          </button>
+          <div class="form-status" id="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        WADHAWAN<span>.A</span>
+      </div>
+      <div class="footer-tag">
+        // DESIGNED FOR AUTONOMOUS EXPLORATION
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Aryan Wadhawan. All rights reserved. Strategic Engine Operating.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
